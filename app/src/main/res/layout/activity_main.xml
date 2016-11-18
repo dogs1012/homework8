@@ -32,7 +32,7 @@
         android:layout_alignParentStart="true" />
 
     <Button
-        android:text="곱하기"
+        android:text="*"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/button2"
@@ -42,7 +42,7 @@
         android:onClick="gop" />
 
     <Button
-        android:text="더하기"
+        android:text="+"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button"
@@ -51,7 +51,7 @@
         android:onClick="plus" />
 
     <Button
-        android:text="빼기"
+        android:text="-"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="13dp"
@@ -61,7 +61,7 @@
         android:onClick="minus" />
 
     <Button
-        android:text="나누기"
+        android:text="/"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:id="@+id/button4"
@@ -71,11 +71,12 @@
         android:onClick="dvi" />
 
     <TextView
-        android:text="TextView"
+        android:id="@+id/Result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/result"
-        android:layout_alignBottom="@+id/button"
-        android:layout_alignParentEnd="true"
-        android:layout_marginEnd="56dp" />
+        android:textSize="30dip"
+        android:textColor="#0000ff"
+        android:layout_margin="10dip"
+        android:text="계산 결과: "/>
+
 </RelativeLayout>
